@@ -1,0 +1,7 @@
+﻿services:
+  quotybackend:
+    image: quotybackend
+    build:
+      context: .
+      dockerfile: QuotyBackend/Dockerfile
+
